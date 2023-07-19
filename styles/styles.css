@@ -232,8 +232,8 @@ nav{
     position: relative;
     width: 40%; 
     height: 40%; 
-    bottom: 200px;
-    right: 280px;
+    bottom: 30%;
+    right: 50%;
   
 }
 
@@ -241,6 +241,7 @@ nav{
 .game-btn-con{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding-bottom: 50px;
+    padding-top: 20px;
 }
 .game-btn-list{
     display: flex;
@@ -365,8 +366,8 @@ footer{
         position: relative;
         width: 40%; 
         height: 40%; 
-        bottom: 150px;
-        right: 250px;
+        bottom: 110px;
+        right: 160px;
       
     }
     .game-btn-list>.game-btn{
@@ -389,7 +390,41 @@ footer{
         justify-content:center;
         row-gap: 10px;
         column-gap: 30px;
+    }
 }
   /* medium or tablet devices  */
   @media screen and (min-width:577px) and (max-width:960px){
+    .banner-text-con h1{
+        font-size: 3.7rem;
+    }
+    .h2_700{
+        font-size: 1.5rem;
+    }
+    .online-games-img-con{
+        flex-wrap:wrap;
+        justify-content:center;
+        row-gap: 29px;
+    }
+    .online-games-img{  
+        width: 50%;   
+    }
+    .image-hover {
+        left:0;
+        right:0;
+        margin-left: auto;
+        margin-right: auto  
+    }
+    .play-ins-text{
+        width: 50%;
+        padding-top: 30px;
+        text-align: end;
+    }
+    .play-ins-img2{
+        
+        bottom: 100px;
+        right: 155px;
+    }
+    .play-ins-text p{
+        font-size: .7rem;
+    }
   }
