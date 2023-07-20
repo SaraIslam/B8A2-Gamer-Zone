@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
 }
 .alignment{
     width: 80%;
@@ -174,7 +175,8 @@ nav{
     padding-top: 30px;
 }
 .online-games-img{
-    
+    color: #534C64;
+    font-size: .8rem;
     width: 22%;
     position: relative;
     
@@ -194,7 +196,6 @@ nav{
 .image-hover{
     display: hidden;
     position: absolute;
-    top: 0px;
     width: 200px;
     height: 300px;
     display: flex;
@@ -204,6 +205,7 @@ nav{
     border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.5);;
     opacity: 0;
+    top: 0px;
     left:0;
     right:0;
     margin-left: auto;
@@ -218,7 +220,7 @@ nav{
 }
 /* play instantly */
 .play-ins{
-    margin-top: 60px;
+    margin: 60px 0;
     display:flex;
 }
 .play-ins-text{
@@ -229,18 +231,24 @@ nav{
 }
 .play-ins-img{
     width: 50%;
-    text-align: end;   
+    text-align: end;
+    position: relative;   
 }
 .play-ins-img1{
     width: 80%;  
 }
 .play-ins-img2{
-    position: relative;
-    width: 40%; 
+    position: absolute;
+    /* width: 40%; 
     height: 40%; 
     bottom: 30%;
-    right: 50%;
-  
+    right: 50%; */
+    width:40%;
+    top: 55%;
+    left:0;
+    right:60%;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 /* Game button */
@@ -254,20 +262,22 @@ nav{
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 15px;
+    gap: 8px;
 }
 .game-btn-list>.game-btn{
+    border: 2px solid transparent ;
     width: 18%;
     color: #0B0223;
     display: flex;
     background: #FFF;
     align-items: center;
     border-radius: 40px;
-    gap: 10px;
+    gap: 5px;
+    padding-right: 2px;
 }
 .game-btn:hover{
     color: #FF42A5;
-    border: 1px solid  #FF42A5 ;
+    border: 2px solid  #FF42A5 ;
 }
 .game-btn:hover p{
     color: #FF42A5;
@@ -278,7 +288,7 @@ nav{
 .game-btn p{
     color: #0B0223;
     font-family: Work Sans;
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: 400;
 }
 /* footer */
@@ -363,16 +373,17 @@ footer{
         width: 35px;  
     }
 
-    .play-ins-img2{
+    /* .play-ins-img2{
         position: relative;
         width: 40%; 
         height: 40%; 
         bottom: 110px;
         right: 160px;
       
-    }
+    } */
     .game-btn-list>.game-btn{
-        width: 30%;
+        width: 32%;
+        gap: 3px;
     }
     .game-btn img{
         width: 30px;
@@ -415,11 +426,11 @@ footer{
         padding-top: 30px;
         text-align: end;
     }
-    .play-ins-img2{
+    /* .play-ins-img2{
         
         bottom: 100px;
         right: 155px;
-    }
+    } */
     .play-ins-text p{
         font-size: .7rem;
     }
