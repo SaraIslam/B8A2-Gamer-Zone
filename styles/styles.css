@@ -239,10 +239,12 @@ nav{
 .play-ins-img{
     width: 50%;
     text-align: end;
-    position: relative;   
+    position: relative;  
+    padding-bottom: 140px;  
 }
 .play-ins-img1{
-    width: 80%;  
+    width: 80%; 
+   
 }
 .play-ins-img2{
     position: absolute;
@@ -251,9 +253,9 @@ nav{
     bottom: 30%;
     right: 50%; */
     width:40%;
-    top: 55%;
+    top: 40%;
     left:0;
-    right:60%;
+    right:50%;
     margin-left: auto;
     margin-right: auto 
 }
